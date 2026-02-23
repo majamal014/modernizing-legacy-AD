@@ -62,7 +62,7 @@ Key features include syncing on-premises AD identities to Entra ID, conditional 
 
 <h2>Phase 4: Deploy Computer from the Out-of-Box Experience (OOBE)</h2>
 
-<h4>A new, fresh computer is easily deployed from the OOBE solely by connecting the work account:</h4>
+<h4>A new, fresh computer is easily deployed from the OOBE by connecting the work account:</h4>
 <p align="center">
 <img width="1023" height="770" alt="image" src="https://github.com/user-attachments/assets/11b2da23-16fe-4ba7-84fa-3fb3f8b9eda8" />
 </p>
