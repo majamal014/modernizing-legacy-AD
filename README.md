@@ -20,11 +20,25 @@
 2. Require multi-factor authentication if connecting from outside the corporate network <br /><br />
 <img width="1289" height="606" alt="Conditional access policies cropped" src="https://github.com/user-attachments/assets/b369f982-4dd1-4687-a9a6-998a391427e7" />
 
+<h4>The public IP address for the on-premises network is added to Entra for the 2nd Conditional Access policy configuration:</h4>
+<img width="1321" height="421" alt="Off prem MFA required" src="https://github.com/user-attachments/assets/9d371533-20b3-4599-812d-e5603da5c8e7" />
+
 <h4>The Conditional Access policies work as a user who connects from a non-compliant device is denied access:</h4>
 <img width="407" height="548" alt="compliant device fail access denied" src="https://github.com/user-attachments/assets/ebea15b6-ccca-4f66-8ae6-5ee17916b2ea" />
 
 
 <h2>Phase 3: Intune Configuration</h2>
+<h4>A security baseline is configured on Intune to automatically harden Intune-managed Windows computers:</h4>
+<img width="1426" height="455" alt="Intune security baseline cropped" src="https://github.com/user-attachments/assets/32a0c67e-2e94-4e7c-8c7c-f65e2cce775e" />
+
+<h4>For a device to be compliant and access M365 apps, a compliance policy was configured in Intune requiring Windows 10 or later:</h4>
+<img width="1330" height="460" alt="Intune compliance require windows 10 cropped" src="https://github.com/user-attachments/assets/c9d0d79a-e559-4ce7-b117-c533a9a1bf64" />
+
+<h4>Google Chrome is added to Intune, so it will automatically install on Intune-managed devices:</h4>
+<img width="1334" height="367" alt="Intune install Chrome cropped" src="https://github.com/user-attachments/assets/a2013311-4a1c-47b9-a14a-9e86d8e881ce" />
+
+
+
 
 <h2>Phase 4: Deploy Computer with Out-of-Box Experience (OOBE)</h2>
 
