@@ -17,7 +17,7 @@ Key features include syncing on-premises AD identities to Entra ID, conditional 
 </p>
 <h4>The identities have been successfully synced with Entra ID:</h4>
 <p align="center">
-  <img width="1920" height="518" alt="Entra Connect Sync Successful" src="https://github.com/user-attachments/assets/7e5f8c6e-b869-47e4-af1c-82520dc4ba4e" />
+  <img width="1602" height="507" alt="image" src="https://github.com/user-attachments/assets/efb24934-c82d-4f70-916c-1430c5e280c5" />
 </p>
 
 
